@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(to right,rgb(19, 11, 167),rgba(0, 202, 253, 0.784)); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+form{
+    padding:100px;
+    margin-top:10px;
+    margin-left: 350px;
+    width:25rem;
+    height:20rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    box-shadow:4px 4px 4px 4px ;
+    border-radius: 30px;
+    background-color: transparent; 
+}
+@media screen and (max-width:400px) {
+
+    .one img{
+        width:100px;
+    }
+    form{
+        width:350px ;
+        margin-top:10px;
+        margin-left:20px;
+        height: 500px;
+
+    }
+    .icon{
+        position:fixed;
+    }
+}
+h1{
+    opacity:.9;
+    text-transform:capitalize;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+label{
+    padding:4px;
+}
+a{
+    padding: 4px;
+    color: rgb(0, 0, 1);
+    text-decoration: none;
+}
+button{
+    text-decoration: none;
+    margin-top: 9px;
+    padding:10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius:8px;
+    box-shadow: 4px 4px 4px 4px   ;
+        
+}
+input{
+    padding:2px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black; 
+}
+.icon ul {
+    margin-top:10px;
+    margin-left:50rem;
+
+}
+.icon ul li{
+    display: inline;
+    list-style-type: none;
+}
+img{
+    width:200px;
+    margin:10px;
+    opacity: .7;
+}
+.b{
+    border: none;
+}
